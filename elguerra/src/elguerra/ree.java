@@ -116,6 +116,11 @@ public class ree extends javax.swing.JFrame {
         jTextField2.setEditable(false);
         jTextField2.setBackground(new java.awt.Color(255, 204, 204));
         jTextField2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
 
         jLabel1.setText("Products");
 
@@ -283,6 +288,10 @@ public class ree extends javax.swing.JFrame {
         // TODO add your handling code here:
         getcash();
     }//GEN-LAST:event_jTextField1KeyReleased
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
 
     /**
      * @param args the command line arguments
